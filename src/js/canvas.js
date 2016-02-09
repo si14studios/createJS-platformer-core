@@ -1,5 +1,6 @@
 // Basic variables
 var stage, canvas, context, ticker; // Setup variables
+var gravity = 0.981; // Sets gravity to realistic
 
 function init() { // Main function that runs when the HTML body loads; Runs once
   // Makes canvas fit to screen
